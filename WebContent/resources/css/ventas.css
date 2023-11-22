@@ -1,0 +1,87 @@
+@charset "ISO-8859-1";
+
+body{
+	font-family: 'Montserrat', sans-serif;
+}
+
+body{
+	background-image: url(var(--contextPath)"/resources/img/home-background.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+}
+
+.sectionTable{
+	z-index: 0;
+	background: #fff;
+	padding: 25px;
+	width: 70%;
+	border-radius: 10px;
+	box-shadow: 3px 2px 8px 0 #000;
+	margin-top: 100px
+}
+
+.btnNewArt{
+	/*background-color: #DAAE59;*/
+	/*background-color: #08C2D1;*/
+	background-color: #33cc50;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.btnNewArt:hover{
+	background-color: #33cc50;
+	color: #fff;
+	transform: scale(0.9);
+}
+.btnCancel{
+	/*background-color: #DAAE59;*/
+	/*background-color: #08C2D1;*/
+	background-color: #dc3545;
+	color: #fff;
+	border: none;
+	padding: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+.btnCancel:hover{
+	background-color: #dc3545;
+	color: #fff;
+	transform: scale(0.9);
+}
+
+.cardAddedArt{
+	background: #DAAE59;
+	display: inline-block;
+	padding: 15px;
+	border-radius: 10px;
+	margin: 2px 5px;
+}
+
+.info{
+	color: #fff;
+}
+
+.cardAddedArt > p{
+	color: #fff;
+}
+
+.eraseButton{
+	border: none;
+	background: none;
+	color: #fff;
+	margin-left: 80%;
+	font-size: 20px;
+}
+
+.eraseButton:hover{
+	color: #000;
+	transition: 1s all ease;
+}
